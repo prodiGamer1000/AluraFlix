@@ -7,6 +7,9 @@
     text-align: center;
     font-size: 16px;
 }
+title{
+    display: none;
+}
 body{
     display: block;
     height: 100vh;
