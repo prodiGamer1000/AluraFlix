@@ -1,4 +1,6 @@
 *{
+    margin: 0;
+    padding: 0;
     display: flex;
     color: #fff;
     border-radius: 5%;
@@ -12,9 +14,9 @@ body{
 }
 .header{
     border-bottom: 1px solid #0c001f;
-
+    padding: 35px 21px;
 }
 .logo{
-    text-shadow: 1px 1px 2px #423d33;
+    text-shadow: 1px -1px 2px #423d33;
     color: #a8001c;
 }
