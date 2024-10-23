@@ -11,6 +11,7 @@
 body{
     height: 100vh;
     min-width: 100vw;
+    background: linear-gradient(#0c001f,#000);
 }
 .header{
     background-color: #290007;
