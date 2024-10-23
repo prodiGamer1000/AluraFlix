@@ -8,6 +8,7 @@
     font-size: 16px;
 }
 body{
+    display: block;
     height: 100vh;
     min-width: 100vw;
     background: linear-gradient(#000,#0c001f);
