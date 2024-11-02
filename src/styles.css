@@ -79,6 +79,7 @@ img:hover{
 
 
 ::-webkit-scrollbar {
+    margin: 2px;
     width: 12px; 
     height: 12px;
   }
