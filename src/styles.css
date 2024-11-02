@@ -45,12 +45,12 @@ body{
     padding: 0 15px;
     gap: 10px;
 }
-.videosarea img{
+img{
     opacity: 0.8;
     width: 150px;
     box-shadow: 0;
 }
-.videosarea img:hover{
+img:hover{
     opacity: 1;
     width: 155px;
     box-shadow: 0 0 3px #000;
