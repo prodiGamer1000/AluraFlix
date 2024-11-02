@@ -39,12 +39,15 @@ body{
     justify-content: center;
     align-items: center;
 }
-.videosArea{
+.nameArea{
     text-align: left;
+}
+.videosArea{
     display: flex;
     overflow-x: scroll;
-    padding: 15px 0;
     gap: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 img{
     cursor: pointer;
@@ -71,8 +74,8 @@ img:hover{
 
 
 ::-webkit-scrollbar {
-    width: 15px; 
-    height: 15px;
+    width: 12px; 
+    height: 12px;
   }
   
   ::-webkit-scrollbar-track {
