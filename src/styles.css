@@ -11,6 +11,7 @@ title{
     display: none;
 }
 body{
+    padding-bottom: 100px;
     display: block;
     min-height: 100vh;
     width: 100vw;
@@ -88,9 +89,10 @@ img:hover{
   }
   
   ::-webkit-scrollbar-thumb {
+    opacity: 0.7;
     cursor: pointer;
     width: 3px;
-    background-color: #0c001f;
+    background-color: #140826;
     border-radius: 10px;
     border: 3px solid #202020; /* Opcional: cria um espaçamento em volta */
   }
