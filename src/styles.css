@@ -40,9 +40,10 @@ body{
     align-items: center;
 }
 .videosArea{
+    text-align: left;
     display: flex;
     overflow-x: scroll;
-    padding: 0 15px;
+    padding: 15px 0;
     gap: 10px;
 }
 img{
@@ -70,13 +71,13 @@ img:hover{
 
 ::-webkit-scrollbar {
     width: 3px; 
+    height: 3px;
   }
   
   ::-webkit-scrollbar-track {
     width: 3px;
     background: #202020;
     opacity: 0.3;
-    border-radius: 10px;
   }
   
   ::-webkit-scrollbar-thumb {
