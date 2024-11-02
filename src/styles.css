@@ -39,7 +39,7 @@ body{
     justify-content: center;
     align-items: center;
 }
-.videosarea{
+.videosArea{
     width: 100%;
     flex-wrap: nowrap;
     display: flex;
