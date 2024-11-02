@@ -41,6 +41,9 @@ body{
 }
 .nameArea{
     text-align: left;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 7px;
 }
 .videosArea{
     display: flex;
