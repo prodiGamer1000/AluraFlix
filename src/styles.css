@@ -40,8 +40,6 @@ body{
     align-items: center;
 }
 .videosArea{
-    width: 100%;
-    flex-wrap: nowrap;
     display: flex;
     overflow-x: scroll;
     padding: 0 15px;
@@ -71,16 +69,18 @@ img:hover{
 
 
 ::-webkit-scrollbar {
-    width: 5px; 
+    width: 3px; 
   }
   
   ::-webkit-scrollbar-track {
+    width: 3px;
     background: #202020;
     opacity: 0.3;
     border-radius: 10px;
   }
   
   ::-webkit-scrollbar-thumb {
+    width: 3px;
     background-color: #0c001f;
     border-radius: 10px;
     border: 3px solid #202020; /* Opcional: cria um espaçamento em volta */
