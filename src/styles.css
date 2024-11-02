@@ -17,6 +17,7 @@ body{
     background: linear-gradient(#000,#0c001f);
 }
 .header{
+    display: flex;
     border-bottom: 2px solid #0c001f;
     padding: 21px 35px;
 }
@@ -46,11 +47,11 @@ body{
 }
 img{
     opacity: 0.8;
-    width: 150px;
+    height: 150px;
     box-shadow: 0;
 }
 img:hover{
     opacity: 1;
-    width: 155px;
+    height: 155px;
     box-shadow: 0 0 3px #000;
 }
