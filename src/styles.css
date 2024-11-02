@@ -57,3 +57,36 @@ img:hover{
     height: 155px;
     box-shadow: 0 0 3px #000;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+::-webkit-scrollbar {
+    width: 5px; 
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #202020;
+    opacity: 0.3;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #0c001f;
+    border-radius: 10px;
+    border: 3px solid #202020; /* Opcional: cria um espaçamento em volta */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
+  
