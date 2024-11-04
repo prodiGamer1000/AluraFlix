@@ -118,6 +118,6 @@ img:hover{
         flex-direction: column;
     }
     iframe{
-        padding: 10px;
+        width: 180vw;
     }
 }
