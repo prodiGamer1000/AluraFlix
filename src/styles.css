@@ -121,7 +121,10 @@ img:hover{
 }
 
 @media(max-width: 500px){
-    
+    iframe{
+        height: 200px;
+        width: 90vw;
+    }
     body{
         width:100vw;
     }
