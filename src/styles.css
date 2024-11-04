@@ -120,4 +120,10 @@ img:hover{
     iframe{
         width: 90vw;
     }
+    img{
+        height: 80px;
+    }
+    img:hover{
+        height: 82px;
+    }
 }
