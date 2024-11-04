@@ -115,7 +115,7 @@ img:hover{
         width:200vw;
     }
     .hero{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     iframe{
         width: 180vw;
