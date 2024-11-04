@@ -109,22 +109,26 @@ img:hover{
 
 
 
-
-@media(max-width: 500px){
+@media(max-width:800px){
     .header{
         justify-content: center;
         align-items: center;
     }
+    iframe{
+        height: 200px;
+        width: 90vw;
+    }
+}
+
+@media(max-width: 500px){
+    
     body{
         width:100vw;
     }
     .hero{
         flex-direction: column-reverse;
     }
-    iframe{
-        height: 200px;
-        width: 90vw;
-    }
+    
     img{
         height: 110px;
     }
